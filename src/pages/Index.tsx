@@ -13,7 +13,7 @@ const Index: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Zeytra Tech | Soluções de Dados & Desenvolvimento de Software</title>
+        <title>Zeytra Tech</title>
         <meta 
           name="description" 
           content="Zeytra Tech - Especialistas em Soluções de Dados, desenvolvimento de software e consultoria tecnológica. Soluções inteligentes para empresas que precisam escalar com segurança." 
