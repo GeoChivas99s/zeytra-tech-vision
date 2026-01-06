@@ -68,7 +68,11 @@ const Header: React.FC = () => {
               <Globe className="w-4 h-4" />
               <span className="font-medium text-sm uppercase">{language}</span>
             </button>
-            <Button variant="default" className="bg-accent-gradient hover:opacity-90 transition-opacity">
+            <Button variant="default" 
+             className="bg-accent-gradient hover:opacity-90 transition-opacity"
+             onClick={() => window.location.href = "#contact"}
+
+             >
               {t('hero.cta.contact')}
             </Button>
           </div>
@@ -105,7 +109,10 @@ const Header: React.FC = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="default" className="bg-accent-gradient w-full mt-4">
+              <Button variant="default" className="bg-accent-gradient w-full mt-4" onClick={() => {
+                setIsMobileMenuOpen(false);
+                window.location.href = "#contact";
+              }}>
                 {t('hero.cta.contact')}
               </Button>
             </nav>

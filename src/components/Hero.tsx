@@ -83,7 +83,7 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 pt-10 border-t border-border/50 animate-fade-in" style={{ animationDelay: '0.8s' }}>
+          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 pt-10 border-t border-border/50 animate-fade-in" style={{ animationDelay: '0.8s' }}>
             {[
               { value: '50+', label: 'Projetos Entregues' },
               { value: '99%', label: 'Satisfação' },
@@ -97,7 +97,7 @@ const Hero: React.FC = () => {
                 <div className="text-sm text-muted-foreground">{stat.label}</div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
 
