@@ -19,14 +19,14 @@ const translations = {
     
     // Hero
     'hero.headline': 'Transformamos dados e tecnologia em soluções inteligentes',
-    'hero.subheadline': 'Engenharia de dados, desenvolvimento de software e consultoria tecnológica para empresas que precisam escalar com segurança.',
+    'hero.subheadline': 'Soluções de dados, desenvolvimento de software e consultoria tecnológica para empresas que precisam escalar com segurança.',
     'hero.cta.contact': 'Fale Connosco',
     'hero.cta.solutions': 'Nossas Soluções',
     
     // About
     'about.title': 'Sobre a Zeytra Tech',
     'about.subtitle': 'Excelência em Tecnologia',
-    'about.description': 'A Zeytra Tech é especializada em engenharia de dados, desenvolvimento de software e modernização tecnológica. Com forte orientação a arquiteturas modernas, escaláveis e seguras, atuamos em ambientes corporativos e críticos, focando sempre em gerar valor real ao negócio dos nossos clientes.',
+    'about.description': 'A Zeytra Tech é especializada em soluções de dados, desenvolvimento de software e modernização tecnológica. Com forte orientação a arquiteturas modernas, escaláveis e seguras, atuamos em ambientes corporativos e críticos, focando sempre em gerar valor real ao negócio dos nossos clientes.',
     'about.mission.title': 'Nossa Missão',
     'about.mission.description': 'Capacitar empresas através de soluções tecnológicas inovadoras que impulsionam o crescimento e a eficiência operacional.',
     'about.vision.title': 'Nossa Visão',
@@ -91,7 +91,7 @@ const translations = {
     'footer.quicklinks': 'Links Rápidos',
     'footer.contact': 'Contacto',
     'footer.followus': 'Siga-nos',
-    'footer.copyright': '© 2024 Zeytra Tech. Todos os direitos reservados.',
+    'footer.copyright': '© 2026 Zeytra Tech. Todos os direitos reservados.',
   },
   en: {
     // Navigation
@@ -103,14 +103,14 @@ const translations = {
     
     // Hero
     'hero.headline': 'We transform data and technology into intelligent solutions',
-    'hero.subheadline': 'Data engineering, software development and technology consulting for companies that need to scale securely.',
+    'hero.subheadline': 'Data Solutions, software development and technology consulting for companies that need to scale securely.',
     'hero.cta.contact': 'Contact Us',
     'hero.cta.solutions': 'Our Solutions',
     
     // About
     'about.title': 'About Zeytra Tech',
     'about.subtitle': 'Excellence in Technology',
-    'about.description': 'Zeytra Tech specializes in data engineering, software development and technology modernization. With a strong focus on modern, scalable and secure architectures, we operate in corporate and critical environments, always focusing on generating real value for our clients\' business.',
+    'about.description': 'Zeytra Tech specializes in data solutions, software development and technology modernization. With a strong focus on modern, scalable and secure architectures, we operate in corporate and critical environments, always focusing on generating real value for our clients\' business.',
     'about.mission.title': 'Our Mission',
     'about.mission.description': 'Empower companies through innovative technology solutions that drive growth and operational efficiency.',
     'about.vision.title': 'Our Vision',
@@ -171,11 +171,11 @@ const translations = {
     'cta.button': 'Contact Us',
     
     // Footer
-    'footer.description': 'Data engineering, software development and technology consulting for companies that need to scale securely.',
+    'footer.description': 'Data Solutions, software development and technology consulting for companies that need to scale securely.',
     'footer.quicklinks': 'Quick Links',
     'footer.contact': 'Contact',
     'footer.followus': 'Follow Us',
-    'footer.copyright': '© 2024 Zeytra Tech. All rights reserved.',
+    'footer.copyright': '© 2026 Zeytra Tech. All rights reserved.',
   },
 };
 
