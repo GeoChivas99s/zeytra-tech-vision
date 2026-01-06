@@ -1,0 +1,21 @@
+{
+  "name": "Zeytra Tech",
+  "short_name": "Zeytra",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0A0A0A",
+  "description": "Soluções de Dados, Consultoria e Desenvolvimento de Software.",
+  "icons": [
+    {
+      "src": "/logo-full.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo-full.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
