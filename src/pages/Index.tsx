@@ -16,11 +16,11 @@ const Index: React.FC = () => {
         <title>Zeytra Tech | Engenharia de Dados & Desenvolvimento de Software</title>
         <meta 
           name="description" 
-          content="Zeytra Tech - Especialistas em engenharia de dados, desenvolvimento de software e consultoria tecnológica. Soluções inteligentes para empresas que precisam escalar com segurança." 
+          content="Zeytra Tech - Especialistas em Soluções de Dados, desenvolvimento de software e consultoria tecnológica. Soluções inteligentes para empresas que precisam escalar com segurança." 
         />
         <meta 
           name="keywords" 
-          content="engenharia de dados, data warehouse, data lake, desenvolvimento software, consultoria tecnológica, fintech, bancos, seguradoras" 
+          content="engenharia de dados, Soluções de Dados,EDW, data warehouse, data lake, desenvolvimento software, consultoria tecnológica, fintech, bancos, seguradoras" 
         />
         <meta property="og:title" content="Zeytra Tech | Enterprise Technology Solutions" />
         <meta property="og:description" content="Transformamos dados e tecnologia em soluções inteligentes para empresas." />
