@@ -123,14 +123,14 @@ const Footer: React.FC = () => {
           <p className="text-sm text-muted-foreground">
             {t('footer.copyright')}
           </p>
-          <div className="flex items-center gap-6 text-sm text-muted-foreground">
+          {/* <div className="flex items-center gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">
               Privacy Policy
             </a>
             <a href="#" className="hover:text-primary transition-colors">
               Terms of Service
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
