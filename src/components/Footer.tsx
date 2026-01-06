@@ -13,9 +13,9 @@ const Footer: React.FC = () => {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Github, href: '#', label: 'GitHub' },
+    // { icon: Linkedin, href: 'https://www.linkedin.com/company/zeytra-tech/', label: 'LinkedIn' },
+    // { icon: Twitter, href: '#', label: 'Twitter' },
+    // { icon: Github, href: '#', label: 'GitHub' },
   ];
 
   return (
@@ -29,9 +29,11 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <a href="#home" className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-accent-gradient flex items-center justify-center">
+              {/* <div className="w-10 h-10 rounded-lg bg-accent-gradient flex items-center justify-center">
                 <span className="text-primary-foreground font-heading font-bold text-xl">Z</span>
-              </div>
+              </div> */}
+                            <img src="/logo-full.png" alt="Zeytra Tech Logo" className="h-12 lg:h-12" />
+
               <span className="font-heading font-bold text-xl text-foreground">
                 Zeytra<span className="text-primary">Tech</span>
               </span>
@@ -46,6 +48,8 @@ const Footer: React.FC = () => {
                   key={index}
                   href={social.href}
                   aria-label={social.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-lg bg-muted/50 flex items-center justify-center text-muted-foreground hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
                   <social.icon className="w-5 h-5" />
@@ -81,15 +85,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-muted-foreground">
                 <Mail className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <span>info@zeytratech.com</span>
+                <span>geral@zeytra.it.ao</span>
               </li>
               <li className="flex items-start gap-3 text-muted-foreground">
                 <Phone className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <span>+351 XXX XXX XXX</span>
+                <span>+244 923 609 024</span>
               </li>
               <li className="flex items-start gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <span>Lisboa, Portugal</span>
+                <span>Luanda, Angola</span>
               </li>
             </ul>
           </div>
@@ -103,7 +107,9 @@ const Footer: React.FC = () => {
               Siga-nos nas redes sociais para novidades e insights sobre tecnologia.
             </p>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/zeytra-tech/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-primary hover:underline"
             >
               <Linkedin className="w-5 h-5" />

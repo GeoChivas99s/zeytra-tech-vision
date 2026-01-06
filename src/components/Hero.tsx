@@ -45,10 +45,10 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 mb-8 animate-fade-in">
+          {/* <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 mb-8 animate-fade-in">
             <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
             <span className="text-sm text-primary font-medium">Enterprise Technology Solutions</span>
-          </div>
+          </div> */}
 
           {/* Headline */}
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight animate-fade-in" style={{ animationDelay: '0.2s' }}>
@@ -66,6 +66,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <Button
               size="lg"
+              onClick={() => window.location.href = "https://api.whatsapp.com/send/?phone=244923609024&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+os+servi%C3%A7os+da+Zeytra+Tech.&type=phone_number&app_absent=0"}
               className="bg-accent-gradient hover:opacity-90 transition-all duration-300 text-lg px-8 py-6 glow-effect group"
             >
               {t('hero.cta.contact')}
@@ -75,6 +76,7 @@ const Hero: React.FC = () => {
               variant="outline"
               size="lg"
               className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary text-lg px-8 py-6"
+              onClick={() => window.location.href = "#services"}
             >
               {t('hero.cta.solutions')}
             </Button>

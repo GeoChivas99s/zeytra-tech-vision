@@ -25,7 +25,7 @@ const Index: React.FC = () => {
         <meta property="og:title" content="Zeytra Tech | Enterprise Technology Solutions" />
         <meta property="og:description" content="Transformamos dados e tecnologia em soluções inteligentes para empresas." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://zeytratech.com" />
+        <link rel="canonical" href="https://zeytra.it.ao" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

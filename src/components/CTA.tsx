@@ -44,6 +44,7 @@ const CTA: React.FC = () => {
               <Button
                 size="lg"
                 className="bg-accent-gradient hover:opacity-90 transition-all duration-300 text-lg px-10 py-7 glow-effect group"
+                onClick={() => window.location.href = "https://api.whatsapp.com/send/?phone=244923609024&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+os+servi%C3%A7os+da+Zeytra+Tech.&type=phone_number&app_absent=0"}
               >
                 {t('cta.button')}
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />

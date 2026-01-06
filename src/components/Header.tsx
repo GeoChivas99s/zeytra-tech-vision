@@ -30,7 +30,7 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${
         isScrolled
           ? 'bg-background/95 backdrop-blur-md shadow-lg border-b border-border'
           : 'bg-transparent'
@@ -40,9 +40,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-lg bg-accent-gradient flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-xl">Z</span>
-            </div>
+              <img src="/logo-full.png" alt="Zeytra Tech Logo" className="h-12 lg:h-12" />
             <span className="font-heading font-bold text-xl text-foreground">
               Zeytra<span className="text-primary">Tech</span>
             </span>
