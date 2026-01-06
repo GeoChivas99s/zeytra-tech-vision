@@ -1,13 +1,46 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import Services from '@/components/Services';
+import Differentials from '@/components/Differentials';
+import Partners from '@/components/Partners';
+import CTA from '@/components/CTA';
+import Footer from '@/components/Footer';
 
-const Index = () => {
+const Index: React.FC = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>Zeytra Tech | Engenharia de Dados & Desenvolvimento de Software</title>
+        <meta 
+          name="description" 
+          content="Zeytra Tech - Especialistas em engenharia de dados, desenvolvimento de software e consultoria tecnológica. Soluções inteligentes para empresas que precisam escalar com segurança." 
+        />
+        <meta 
+          name="keywords" 
+          content="engenharia de dados, data warehouse, data lake, desenvolvimento software, consultoria tecnológica, fintech, bancos, seguradoras" 
+        />
+        <meta property="og:title" content="Zeytra Tech | Enterprise Technology Solutions" />
+        <meta property="og:description" content="Transformamos dados e tecnologia em soluções inteligentes para empresas." />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://zeytratech.com" />
+      </Helmet>
+
+      <div className="min-h-screen bg-background">
+        <Header />
+        <main>
+          <Hero />
+          <About />
+          <Services />
+          <Differentials />
+          <Partners />
+          <CTA />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
