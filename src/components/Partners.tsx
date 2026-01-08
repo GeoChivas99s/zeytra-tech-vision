@@ -7,8 +7,8 @@ const Partners: React.FC = () => {
   // Placeholder partner logos - in production, these would be actual partner logos
   const partners = [
     { name: 'Nus Eventus', logo: "/logo-nus-eventus.png" },
-    // { name: 'Partner 2', logo: null },
-    // { name: 'Partner 3', logo: null },
+    { name: 'Kunha-Ka', logo: "/logo-cunha-ka.png" },
+    { name: 'Estratus', logo: "/logo-Estratus.jpeg" },
     // { name: 'Partner 4', logo: null },
     // { name: 'Partner 5', logo: null },
     // { name: 'Partner 6', logo: null },
