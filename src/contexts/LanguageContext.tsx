@@ -85,6 +85,9 @@ const translations = {
     'cta.title': 'Pronto para transformar a sua operação com dados e tecnologia?',
     'cta.subtitle': 'Entre em contacto connosco e descubra como podemos ajudar a sua empresa a alcançar o próximo nível.',
     'cta.button': 'Entre em Contacto',
+    'cta.support': 'Resposta em 24 horas',
+    'cta.consult': 'Consulta gratuita',
+    'cta.proposal': 'Proposta personalizada',
     
     // Footer
     'footer.description': 'Engenharia de dados, desenvolvimento de software e consultoria tecnológica para empresas que precisam escalar com segurança.',
@@ -170,6 +173,9 @@ const translations = {
     'cta.title': 'Ready to transform your operation with data and technology?',
     'cta.subtitle': 'Contact us and discover how we can help your company reach the next level.',
     'cta.button': 'Contact Us',
+    'cta.support': 'Response within 24 hours',
+    'cta.consult': 'Free consultation',
+    'cta.proposal': 'Custom proposal',
     
     // Footer
     'footer.description': 'Data Solutions, software development and technology consulting for companies that need to scale securely.',

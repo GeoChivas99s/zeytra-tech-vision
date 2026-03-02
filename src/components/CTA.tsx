@@ -53,9 +53,9 @@ const CTA: React.FC = () => {
               {/* Trust Indicators */}
               <div className="flex flex-wrap items-center justify-center gap-6 mt-12 pt-8 border-t border-border/50">
                 {[
-                  { label: 'Resposta em 24h', icon: '💠' },
-                  { label: 'Consultoria Gratuita', icon: '💠' },
-                  { label: 'Proposta Personalizada', icon: '💠' },
+                  { label: t('cta.support'), icon: '💠' },
+                  { label: t('cta.consult'), icon: '💠' },
+                  { label: t('cta.proposal'), icon: '💠' },
                 ].map((item, index) => (
                   <div key={index} className="flex items-center gap-2 text-muted-foreground">
                     <span className="text-lg">{item.icon}</span>
