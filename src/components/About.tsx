@@ -63,10 +63,10 @@ const About: React.FC = () => {
         {/* Key Pillars */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
           {[
-            { icon: Shield, label: 'Segurança', value: '100%' },
-            { icon: Zap, label: 'Performance', value: 'Alta' },
-            { icon: Target, label: 'Precisão', value: 'Máxima' },
-            { icon: Eye, label: 'Transparência', value: 'Total' },
+            { icon: Shield, label: t('indicators.security'), value: '100%' },
+            { icon: Zap, label: t('indicators.performance'), value: t('indicators.hight') },
+            { icon: Target, label: t('indicators.Precision'), value: t('indicators.maximum') },
+            { icon: Eye, label: t('indicators.Transparency'), value: t('indicators.Total') },
           ].map((item, index) => (
             <div
               key={index}

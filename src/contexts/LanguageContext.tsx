@@ -77,6 +77,20 @@ const translations = {
     'differentials.critical': 'Ambientes Críticos',
     'differentials.critical.desc': 'Experiência comprovada em operações sensíveis',
     
+    // indicators
+    'indicators.hight': 'Alta',
+    'indicators.security': 'Segurança',
+    'indicators.performance': 'Performance',
+    'indicators.maximum': 'Máxima',
+    'indicators.Precision': 'Precisão',
+    'indicators.Total': 'Total',
+    'indicators.Transparency': 'Transparência',
+
+
+
+    
+
+
     // Partners
     'partners.title': 'Parceiros',
     'partners.subtitle': 'Empresas que confiam em nós',
@@ -165,6 +179,19 @@ const translations = {
     'differentials.critical': 'Critical Environments',
     'differentials.critical.desc': 'Proven experience in sensitive operations',
     
+
+    // indicators
+    'indicators.hight': 'High',
+    'indicators.security': 'Security',
+    'indicators.performance': 'Performance',
+    'indicators.maximum': 'Maximum',
+    'indicators.Precision': 'Precision',
+    'indicators.Total': 'Total',
+    'indicators.Transparency': 'Transparency',
+
+
+
+
     // Partners
     'partners.title': 'Partners',
     'partners.subtitle': 'Companies that trust us',
