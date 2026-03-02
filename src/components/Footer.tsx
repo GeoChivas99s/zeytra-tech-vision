@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
               {t('footer.followus')}
             </h4>
             <p className="text-muted-foreground text-sm mb-4">
-              Siga-nos nas redes sociais para novidades e insights sobre tecnologia.
+              {t('footer.social')}
             </p>
             <a
               href="https://www.linkedin.com/company/zeytra-tech/"

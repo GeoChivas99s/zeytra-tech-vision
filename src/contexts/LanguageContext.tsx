@@ -26,7 +26,7 @@ const translations = {
     // About
     'about.title': 'Sobre a Zeytra Tech',
     'about.subtitle': 'Excelência em Tecnologia',
-    'about.description': 'A Zeytra Tech é especializada em soluções de dados, desenvolvimento de software e modernização tecnológica. Com forte orientação a arquiteturas modernas, escaláveis e seguras, atuamos em ambientes corporativos e críticos, focando sempre em gerar valor real ao negócio dos nossos clientes.',
+    'about.description': 'A Zeytra Tech oferece soluções de dados, desenvolvimento de software e modernização tecnológica, atuando em ambientes críticos com AS400 e Banka 3G, garantindo arquiteturas seguras, escaláveis e foco em valor para o negócio.',
     'about.mission.title': 'Nossa Missão',
     'about.mission.description': 'Capacitar empresas através de soluções tecnológicas inovadoras que impulsionam o crescimento e a eficiência operacional.',
     'about.vision.title': 'Nossa Visão',
@@ -91,6 +91,7 @@ const translations = {
     'footer.quicklinks': 'Links Rápidos',
     'footer.contact': 'Contacto',
     'footer.followus': 'Siga-nos',
+    'footer.social': 'Siga-nos nas redes sociais para novidades e insights sobre tecnologia.',
     'footer.copyright': '© 2026 Zeytra Tech. Todos os direitos reservados.',
   },
   en: {
@@ -110,7 +111,7 @@ const translations = {
     // About
     'about.title': 'About Zeytra Tech',
     'about.subtitle': 'Excellence in Technology',
-    'about.description': 'Zeytra Tech specializes in data solutions, software development and technology modernization. With a strong focus on modern, scalable and secure architectures, we operate in corporate and critical environments, always focusing on generating real value for our clients\' business.',
+    'about.description': 'Zeytra Tech offers data solutions, software development, and technological modernization, operating in critical environments with AS400 and Banka 3G, ensuring secure, scalable architectures and a focus on business value.',
     'about.mission.title': 'Our Mission',
     'about.mission.description': 'Empower companies through innovative technology solutions that drive growth and operational efficiency.',
     'about.vision.title': 'Our Vision',
@@ -175,6 +176,7 @@ const translations = {
     'footer.quicklinks': 'Quick Links',
     'footer.contact': 'Contact',
     'footer.followus': 'Follow Us',
+    'footer.social': 'Follow us on social media for news and insights about technology.',
     'footer.copyright': '© 2026 Zeytra Tech. All rights reserved.',
   },
 };
