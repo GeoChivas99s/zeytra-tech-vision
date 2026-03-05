@@ -8,7 +8,7 @@ const Partners: React.FC = () => {
   const partners = [
     { name: 'Nus Eventus', logo: "/logo-nus-eventus.png" },
     { name: 'Kunha-Ka', logo: "/logo-cunha-ka.png" },
-    { name: 'BPC', logo: '/bpc-logo.png' },
+    // { name: 'BPC', logo: '/bpc-logo.png' },
     { name: 'Taag', logo: '/taag-logo.png' },
     { name: 'Estratus', logo: "/logo-Estratus.jpeg" },
     { name: 'Fazenda Agripina', logo: '/agripina-logo.png' },
