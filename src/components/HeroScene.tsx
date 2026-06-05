@@ -63,8 +63,8 @@ const OrbitCore = () => {
         </group>
       ))}
 
-      {Array.from({ length: 18 }).map((_, index) => {
-        const angle = (index / 18) * Math.PI * 2;
+      {Array.from({ length: 12 }).map((_, index) => {
+        const angle = (index / 12) * Math.PI * 2;
         const radius = 2.45 + (index % 3) * 0.15;
 
         return (
@@ -80,7 +80,7 @@ const OrbitCore = () => {
             <meshStandardMaterial
               color={index % 4 === 0 ? "#ff9b55" : "#c4f4ff"}
               emissive={index % 4 === 0 ? "#ff9b55" : "#c4f4ff"}
-              emissiveIntensity={1.1}
+              emissiveIntensity={0.75}
             />
           </mesh>
         );
@@ -92,8 +92,11 @@ const OrbitCore = () => {
 const HeroScene = () => {
   return (
     <div className="absolute inset-0 pointer-events-none">
-      <Canvas camera={{ position: [0, 0, 5.4], fov: 42 }} dpr={[1, 1.5]}>
-        <color attach="background" args={["#000000"]} />
+      <Canvas
+        camera={{ position: [0, 0, 5.4], fov: 42 }}
+        dpr={[1, 1.5]}
+        gl={{ alpha: true, antialias: true }}
+      >
         <fog attach="fog" args={["#04080d", 5, 11]} />
         <ambientLight intensity={0.7} />
         <directionalLight position={[4, 4, 6]} intensity={1.4} color="#7ae3ff" />

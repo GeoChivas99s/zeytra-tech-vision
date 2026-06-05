@@ -485,17 +485,9 @@ const Index = () => {
             <Suspense fallback={<div className="absolute inset-0 pointer-events-none" />}>
               <HeroScene />
             </Suspense>
+            <div className="hero-overlay pointer-events-none absolute inset-0" />
             <div className="hero-grid mx-auto grid w-full max-w-[1240px] gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
               <div className="relative z-10">
-                <motion.p
-                  initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 14 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6 }}
-                  className="mb-6 inline-flex rounded-full border border-white/10 bg-white/[0.06] px-4 py-2 text-[11px] uppercase tracking-[0.34em] text-slate-300"
-                >
-                  {content.heroEyebrow}
-                </motion.p>
-
                 <motion.h1
                   initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -590,7 +582,6 @@ const Index = () => {
             className="mx-auto grid w-full max-w-[1240px] gap-12 px-4 py-24 md:px-6 lg:grid-cols-[0.9fr_1.1fr]"
           >
             <div className="lg:sticky lg:top-28 lg:self-start">
-              <p className="section-kicker">Narrativa operacional</p>
               <h2 className="section-title mt-5 max-w-[12ch]">{content.storyTitle}</h2>
               <p className="mt-6 max-w-xl text-base leading-8 text-slate-300 md:text-lg">
                 {content.storyText}
@@ -623,9 +614,9 @@ const Index = () => {
                     {chapter.description}
                   </p>
 
-                  <div className="mt-8 flex flex-wrap gap-3">
+                  <div className="mt-8 flex flex-wrap gap-4 text-sm text-slate-400">
                     {chapter.bullets.map((bullet) => (
-                      <span key={bullet} className="story-chip">
+                      <span key={bullet} className="tracking-[0.08em]">
                         {bullet}
                       </span>
                     ))}
@@ -639,7 +630,6 @@ const Index = () => {
             <div className="mx-auto w-full max-w-[1240px] rounded-[2rem] border border-white/10 bg-white/[0.03] p-6 md:p-10">
               <div className="grid gap-8 lg:grid-cols-[0.78fr_1.22fr]">
                 <div>
-                  <p className="section-kicker">Core capabilities</p>
                   <h2 className="section-title mt-5 max-w-[13ch]">
                     {content.capabilitiesTitle}
                   </h2>
@@ -692,7 +682,6 @@ const Index = () => {
           <section id="ecosystem" className="overflow-hidden px-4 py-24 md:px-6">
             <div className="mx-auto w-full max-w-[1240px]">
               <div className="mx-auto max-w-3xl text-center">
-                <p className="section-kicker justify-center">Ecosystem</p>
                 <h2 className="section-title mt-5">{content.ecosystemTitle}</h2>
                 <p className="mt-6 text-base leading-8 text-slate-300">
                   {content.ecosystemText}
@@ -727,7 +716,6 @@ const Index = () => {
           <section id="contact" className="px-4 pb-10 md:px-6 md:pb-16">
             <div className="mx-auto grid w-full max-w-[1240px] gap-8 rounded-[2.4rem] border border-white/10 bg-[linear-gradient(135deg,rgba(255,255,255,0.08),rgba(86,214,255,0.08),rgba(255,155,85,0.06))] p-8 md:p-12 lg:grid-cols-[1fr_auto] lg:items-end">
               <div>
-                <p className="section-kicker">Contact</p>
                 <h2 className="section-title mt-5 max-w-[12ch]">{content.contactTitle}</h2>
                 <p className="mt-6 max-w-2xl text-base leading-8 text-slate-200">
                   {content.contactText}
